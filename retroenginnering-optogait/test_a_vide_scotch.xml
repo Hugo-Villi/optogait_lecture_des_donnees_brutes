@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+    <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office" />
+    <Styles>
+        <Style ss:ID="Default">
+            <Font ss:FontName="Tahoma" ss:Color="#000000" />
+            <Alignment ss:Vertical="Bottom" />
+        </Style>
+        <Style ss:ID="S01">
+            <Font ss:FontName="Tahoma" ss:Color="#000000" />
+            <Alignment ss:Vertical="Bottom" />
+            <NumberFormat ss:Format="General Date" />
+        </Style>
+    </Styles>
+    <Worksheet ss:Name="Données OptoGait">
+        <Table ss:FullColumns="1" ss:FullRows="1">
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">Prenom</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Date</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TimeStamp</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Edge1 Led</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Edge1 Status</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Edge2 Led</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Edge2 Status</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Tests Hugo Villi</Data>
+                </Cell>
+                <Cell ss:StyleID="S01">
+                    <Data ss:Type="DateTime">2019-02-08T15:57:53</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">0</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">0</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">FALSE</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">288</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">FALSE</Data>
+                </Cell>
+            </Row>
+        </Table>
+        <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+            <PageSetup>
+                <Layout Orientation="Landscape" />
+                <Header Margin="0.3" />
+                <Footer Margin="0.3" />
+                <PageMargins Bottom="0.4" Left="0.5" Right="0.5" Top="0.4" />
+            </PageSetup>
+            <Print>
+                <ValidPrinterInfo />
+                <FitHeight>1</FitHeight>
+                <FitWidth>1</FitWidth>
+                <Scale>100</Scale>
+            </Print>
+            <Selected />
+            <FreezePanes />
+            <FrozenNoSplit />
+            <SplitHorizontal>1</SplitHorizontal>
+            <TopRowBottomPane>1</TopRowBottomPane>
+            <ActivePane>2</ActivePane>
+            <Panes>
+                <Pane>
+                    <Number>3</Number>
+                </Pane>
+                <Pane>
+                    <Number>2</Number>
+                </Pane>
+            </Panes>
+        </WorksheetOptions>
+    </Worksheet>
+    <Worksheet ss:Name="Cacher les données">
+        <Table ss:FullColumns="1" ss:FullRows="1">
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">Start</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End</Data>
+                </Cell>
+            </Row>
+        </Table>
+        <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+            <PageSetup>
+                <Layout Orientation="Landscape" />
+                <Header Margin="0.3" />
+                <Footer Margin="0.3" />
+                <PageMargins Bottom="0.4" Left="0.5" Right="0.5" Top="0.4" />
+            </PageSetup>
+            <Print>
+                <ValidPrinterInfo />
+                <FitHeight>1</FitHeight>
+                <FitWidth>1</FitWidth>
+                <Scale>100</Scale>
+            </Print>
+            <Selected />
+            <FreezePanes />
+            <FrozenNoSplit />
+            <SplitHorizontal>1</SplitHorizontal>
+            <TopRowBottomPane>1</TopRowBottomPane>
+            <ActivePane>2</ActivePane>
+            <Panes>
+                <Pane>
+                    <Number>3</Number>
+                </Pane>
+                <Pane>
+                    <Number>2</Number>
+                </Pane>
+            </Panes>
+        </WorksheetOptions>
+    </Worksheet>
+    <Worksheet ss:Name="Simple">
+        <Table ss:FullColumns="1" ss:FullRows="1">
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">Nom </Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Prenom</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Première dernière</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">DateDeNaissance</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Sexe</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Poids</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Hauteur</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Pied</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Pathologie</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Échelon</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Unité</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Emploi</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">ID</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Ecole</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Dossard</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Max Fréquence Cardiaque</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Fréquence Cardiaque au repos</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Anaérobic FC Max</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Anaérobic FC Min</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Hauteur Gyko</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Date</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Heure</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">#</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">G/D</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Externe</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TDeRéaction</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TAtt</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TDeVol</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TDeContact</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TPas</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Hauteur</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Puissance</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Rythme[p/s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Rythme[pas/m]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Pas</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Vitesse</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Accél.</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">intermédiaire</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">AngleDeFoulée</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Déséquilibre</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Distance</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Foulée</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">StrideTime\Cycle</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">SingleSupport</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">SingleSupport%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TotalDoubleSupport</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TotalDoubleSupport%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TStance</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TStance%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TSwing</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TSwing%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">ContactPhase</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">ContactPhase%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">FootFlat</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">FootFlat%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">PropulsivePhase</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">PropulsivePhase%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LoadResponse</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">LoadResponse%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">PreSwing</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">PreSwing%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">WalkingPointX</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">WalkingPointGapX</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">StepWidth</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">WalkingBase</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">PCI</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">HRM</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">WalkingPointY</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">WalkingPointGapY</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">BodySwayAP</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">BodySwayML</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">NormalizedStep</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TreadmillSpeed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TreadmillElevation</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TDeVolPerc</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TDeContactPerc</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Notes</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">AbsoluteValue</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"> </Data>
+                </Cell>
+                <Cell ss:Index="8">
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell ss:Index="21">
+                    <Data ss:Type="String">Tests Hugo Villi</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">2/8/2019</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">3:57:53 PM</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Accueil à l'extérieur</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">DÉPART</Data>
+                </Cell>
+                <Cell ss:Index="78">
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"> </Data>
+                </Cell>
+                <Cell ss:Index="8">
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell ss:Index="21">
+                    <Data ss:Type="String">Tests Hugo Villi</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">2/8/2019</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">3:57:53 PM</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">1</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">2.088</Data>
+                </Cell>
+                <Cell ss:Index="39">
+                    <Data ss:Type="Number">1.703</Data>
+                </Cell>
+                <Cell ss:Index="78">
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">2087</Data>
+                </Cell>
+            </Row>
+        </Table>
+        <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+            <PageSetup>
+                <Layout Orientation="Landscape" />
+                <Header Margin="0.3" />
+                <Footer Margin="0.3" />
+                <PageMargins Bottom="0.4" Left="0.5" Right="0.5" Top="0.4" />
+            </PageSetup>
+            <Print>
+                <ValidPrinterInfo />
+                <FitHeight>1</FitHeight>
+                <FitWidth>1</FitWidth>
+                <Scale>100</Scale>
+            </Print>
+            <Selected />
+            <FreezePanes />
+            <FrozenNoSplit />
+            <SplitHorizontal>1</SplitHorizontal>
+            <TopRowBottomPane>1</TopRowBottomPane>
+            <ActivePane>2</ActivePane>
+            <Panes>
+                <Pane>
+                    <Number>3</Number>
+                </Pane>
+                <Pane>
+                    <Number>2</Number>
+                </Pane>
+            </Panes>
+        </WorksheetOptions>
+    </Worksheet>
+    <Worksheet ss:Name="Extended">
+        <Table ss:FullColumns="1" ss:FullRows="1">
+            <Row>
+                <Cell>
+                    <Data ss:Type="String"># Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Nom </Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Prenom</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Première dernière</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">DateDeNaissance</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Sexe</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Poids</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Hauteur</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Pied</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Pathologie</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Échelon</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Unité</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Emploi</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">ID</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Ecole</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Dossard</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Max Fréquence Cardiaque</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Fréquence Cardiaque au repos</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Anaérobic FC Max</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Anaérobic FC Min</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Hauteur Gyko</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Date</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">#</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">TExt.[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Temps[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Pas[cm]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Temps de Contact[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Temps de Balancier[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Simple app.[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Double app.[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Temps de pas[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Mise en charge[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Phase pré-oscillante[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Cycle de Marche[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Foulée[cm]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Vitesse[m/s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Accél.[m/s²]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Cadence [pas/min]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Distance[cm]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Contact phase[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Foot flat[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Phase propulsive[s]</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">%</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">PCI</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell>
+                    <Data ss:Type="Number">1</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Test</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"> </Data>
+                </Cell>
+                <Cell ss:Index="9">
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell ss:Index="22">
+                    <Data ss:Type="String">Tests Hugo Villi</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">2/8/2019 3:57:53 PM</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Accueil à l'extérieur DÉPART</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">1</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">2.088</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">1.703</Data>
+                </Cell>
+            </Row>
+            <Row />
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">Minimum</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">Maximum</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">Moyenne</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">Ecart type</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">CV</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">Moyenne G</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">Moyenne D</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">G - D(%)</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">CV G</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:Index="24">
+                    <Data ss:Type="String">CV D</Data>
+                </Cell>
+            </Row>
+        </Table>
+        <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+            <PageSetup>
+                <Layout Orientation="Landscape" />
+                <Header Margin="0.3" />
+                <Footer Margin="0.3" />
+                <PageMargins Bottom="0.4" Left="0.5" Right="0.5" Top="0.4" />
+            </PageSetup>
+            <Print>
+                <ValidPrinterInfo />
+                <FitHeight>1</FitHeight>
+                <FitWidth>1</FitWidth>
+                <Scale>100</Scale>
+            </Print>
+            <Selected />
+            <FreezePanes />
+            <FrozenNoSplit />
+            <SplitHorizontal>1</SplitHorizontal>
+            <TopRowBottomPane>1</TopRowBottomPane>
+            <ActivePane>2</ActivePane>
+            <Panes>
+                <Pane>
+                    <Number>3</Number>
+                </Pane>
+                <Pane>
+                    <Number>2</Number>
+                </Pane>
+            </Panes>
+        </WorksheetOptions>
+    </Worksheet>
+    <Worksheet ss:Name="Résumé">
+        <Table ss:FullColumns="1" ss:FullRows="1" />
+        <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+            <PageSetup>
+                <Layout Orientation="Landscape" />
+                <Header Margin="0.3" />
+                <Footer Margin="0.3" />
+                <PageMargins Bottom="0.4" Left="0.5" Right="0.5" Top="0.4" />
+            </PageSetup>
+            <Print>
+                <ValidPrinterInfo />
+                <FitHeight>1</FitHeight>
+                <FitWidth>1</FitWidth>
+                <Scale>100</Scale>
+            </Print>
+            <Selected />
+            <FreezePanes />
+            <FrozenNoSplit />
+            <SplitHorizontal>1</SplitHorizontal>
+            <TopRowBottomPane>1</TopRowBottomPane>
+            <ActivePane>2</ActivePane>
+            <Panes>
+                <Pane>
+                    <Number>3</Number>
+                </Pane>
+                <Pane>
+                    <Number>2</Number>
+                </Pane>
+            </Panes>
+        </WorksheetOptions>
+    </Worksheet>
+</Workbook>
